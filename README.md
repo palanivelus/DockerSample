@@ -5,7 +5,7 @@ https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/qu
 
 We will be only look into deploying .Net application into Docker
 
-##### Pre-requisites
+#### Pre-requisites
 
 1. High Speed Internet to download docker images
 2. Follow the quick start example given above. Install Docker and test the hello world docker
@@ -13,7 +13,7 @@ We will be only look into deploying .Net application into Docker
 4. Knowledge in .Net Web API
 
 
-#### Build Your Web API App.
+### Build Your Web API App.
 
 1. Create a new Web api project. You can use the link [here](https://docs.microsoft.com/en-us/aspnet/web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api) for detailed example. I recommend default webapi app is enough
 2. Publish the file using Web Deploy package
@@ -21,7 +21,7 @@ We will be only look into deploying .Net application into Docker
 
    ![Publish Details](detailimages/publishDetails.png)
 
-#### About Current DockerFile
+### About Current DockerFile
 
 We will look into the scripts in the docker file one by one. I have used a sample web api application and created package out of the web api application. For simplicity purpose we will directly use the package in zip file format.
 
@@ -46,7 +46,7 @@ Below command add all the files needed to deploy the web app/api application.
     ADD SampleApp/SampleApp.SetParameters.xml /SampleApp/SampleApp.SetParameters.xml
 
 
-#### Docker commands
+### Docker commands
 
 Copy all publish files to sampleapp folder available in the git cloned folder.
 
