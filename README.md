@@ -17,7 +17,7 @@ We will be only look into deploying .Net application into Docker
 
 1. Create a new Web api project. You can use the link [here](https://docs.microsoft.com/en-us/aspnet/web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api) for detailed example. I recommend default webapi app is enough
 2. Publish the file using Web Deploy package
-3. Make sure you set Default Web Site in the Sitename
+3. Make sure you set **Default Web Site** in the Sitename
 
    ![Publish Details](detailimages/publishDetails.png)
 
